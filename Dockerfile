@@ -2,7 +2,7 @@
 FROM tomcat:9.0-jdk17
 
 # Step 2: Copy your WAR file to Tomcat's webapps directory
-COPY bookandplay-website.war /usr/local/tomcat/webapps/your-app.war
+COPY bookandplay-website.war /usr/local/tomcat/webapps/bookandplay-website.war
 
 # Step 3: Expose Tomcat's default port
 EXPOSE 8080
